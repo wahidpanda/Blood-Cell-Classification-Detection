@@ -13,10 +13,10 @@ UPLOAD_FOLDER = 'static/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Load your custom model
-custom_model = load_model('D:\journal paper\project_folder\m1.h5')  # Replace with your model file path
+custom_model = load_model('D:\journal paper\project_folder\model.h5')  
 
 # Define your classes
-classes = ["EOSINOPHIL", "LYMPHOCYTE", "MONOCYTE", "NEUTROPHIL"]  # Replace with your classes
+classes = ["EOSINOPHIL", "LYMPHOCYTE", "MONOCYTE", "NEUTROPHIL"] 
 
 # Preprocess image function for your custom model
 def preprocess_image(img):
